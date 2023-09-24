@@ -17,5 +17,17 @@ void initialize() {
 
   print("My name is ${name}!");
 
+  // Constants
+  // used for compile-time constants
+  const aConstant = 10;
+  print(aConstant);
 
+  // Final
+  // used for run-time constants
+  final anotherConstant = 3.142;
+  print(anotherConstant);
+
+  final hoursSinceMidnight = DateTime.now().hour;
+  print("The time since midnight is: ${hoursSinceMidnight}");
 }
+
