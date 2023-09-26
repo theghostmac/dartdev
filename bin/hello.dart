@@ -1,7 +1,8 @@
-import 'package:variables/variables.dart';
+// import 'package:variables/variables.dart';
 
 void main() {
     print("Hello, from GhostMac");
     initialize();
 }
 
+void initialize() {}

@@ -23,10 +23,10 @@ void turn_string_to_number() {
     assert(one == 1);
 }
 
-void turn_string_to_double() [
-    var onePointOne = double.parse('1');
-    assert(onePontOne == 1.1);
-}
+// void turn_string_to_double() [
+//     var onePointOne = double.parse('1');
+//     assert(onePontOne == 1.1);
+// }
 
 void turn_string_to_int() {
     String oneAsString = 1.toString();
