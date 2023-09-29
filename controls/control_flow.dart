@@ -8,7 +8,7 @@ void main() {
   }
 
   const trafficLightState = 'yellow';
-  var command = '';
+  String command;
   if (trafficLightState == 'red') {
     command = 'Stop';
   } else if (trafficLightState == 'yellow') {
@@ -19,4 +19,14 @@ void main() {
     command = 'INVALID COLOR!';
   }
   print(command);
+
+  const score = 83;
+  String message;
+  if (score >= 60) {
+    message = "You passed";
+  } else {
+    message = "You failed";
+  }
+
+  print(message);
 }
