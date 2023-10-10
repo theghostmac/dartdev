@@ -1,3 +1,5 @@
+import '../classes/class.dart';
+
 class Password {
   @override
   String toString() {
@@ -11,7 +13,8 @@ class Password {
       return false;
     }
   }
-  String value = "de1x1";
+
+  String value = "dearStrongPwd1x1";
 }
 
 main() {
